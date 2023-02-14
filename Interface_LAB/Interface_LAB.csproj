@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICalc.cs" />
+    <Compile Include="ICalc2.cs" />
     <Compile Include="IMath.cs" />
     <Compile Include="IOutput.cs" />
+    <Compile Include="IOutput2.cs" />
     <Compile Include="ISort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
