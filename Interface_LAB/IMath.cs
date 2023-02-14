@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Interface_LAB
 {
-    interface IOutput
+    interface IMath
     {
-        void Show();
-        void Show(string info);
+        int Max();
+        int Min();
+        float Avg();
+        bool Search(int valueToSearch);
     }
-    
 }

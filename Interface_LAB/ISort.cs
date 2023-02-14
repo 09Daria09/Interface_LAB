@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Interface_LAB
 {
-    interface IOutput
+    interface ISort
     {
-        void Show();
-        void Show(string info);
+        void SortAsc();
+        void SortDesc();
+        void SortByParam(bool isAsc);
     }
-    
 }
